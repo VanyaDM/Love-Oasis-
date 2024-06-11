@@ -1,0 +1,32 @@
+.product-preview-card {
+    width: 20rem;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-preview-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-preview-img {
+    height: 246px;
+    object-fit: contain;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.product-preview-title {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+.product-preview-price {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 1.1rem;
+    color: #ff5722;
+    margin-top: 5px;
+}

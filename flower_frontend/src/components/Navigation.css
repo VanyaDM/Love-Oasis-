@@ -1,0 +1,177 @@
+.main_nav {
+  margin: 0 auto;
+  font-family: "Montserrat Alternates" sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #fff;
+  height: 100%;
+  max-width: 1920px;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.logo {
+  width: 276px;
+  height: 80px;
+  margin: 0 auto;
+  display: block !important;
+  
+}
+.navbar-light .navbar-nav {
+    display: flex;
+    justify-content: center; /* Align items horizontally at the center */
+  }
+
+.navbar-light .navbar-nav .nav-link {
+  padding-top: 20px;
+  color: black;
+  margin: 0 10px;
+
+
+  text-decoration: none;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #A1DD70;
+}
+
+.navbar-light .navbar-nav .nav-link:hover + .dropdown-menu,
+.dropdown-menu:hover {
+  display: block;
+}
+
+.dropdown-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.dropdown-grid > div {
+  padding: 0 10px;
+}
+
+.dropdown-grid > div:not(:last-child) {
+  border-right: 1px solid #ccc; /* Add border between columns */
+}
+
+.navbar-nav .dropdown-menu {
+  left: unset !important;
+  right: 50% !important;
+  transform: translateX(50%);
+}
+
+@media (max-width: 992px) {
+    .navbar-nav .dropdown-menu .dropdown-grid {
+      display: block; /* Revert to block layout */
+    }
+  
+    /* Cancel custom styles */
+    .dropdown-grid {
+      display: initial;
+    }
+  
+    .dropdown-grid > div {
+      padding: initial;
+    }
+  
+    .dropdown-grid > div:not(:last-child) {
+      border-right: none;
+    }
+  
+    .navbar-nav .dropdown-menu {
+      left: initial !important;
+      right: initial !important;
+      transform: initial;
+    }
+  }
+
+
+  
+.login-btn {
+  margin: 0 auto;
+  display: block !important;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.logout-btn {
+  background-color: #EE4E4E;
+  color: white;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  display: block !important;
+}
+
+.logout-btn:hover{
+  background-color: #D93B3B;
+  color: white;
+}
+
+#cartcount {
+  font-size: 10px;
+  background-color: red;
+  color: white;
+  padding: 2px 4px;
+  vertical-align: top;
+  margin-left: -8px;
+  border-radius: 50%;
+  margin-top: -5px;
+}
+
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  border-radius: 9px;
+}
+
+.fa-shopping-cart {
+  font-size: 20px;
+}
+
+.notifications-container {
+  padding: 20px;
+  max-height: 200px;
+  overflow-y: scroll;
+  border: 1px solid gray;
+  background-color: white;
+  width: 200px;
+  z-index: 99;
+}
+
+.notification-read {
+  background-color: lightblue;
+}
+
+.notification-unread {
+  background-color: lightcoral;
+}
+.fas[data-count] {
+  position: relative;
+}
+
+.fa-bell {
+  font-size: 1.5em;
+}
+
+.fas[data-count]:after {
+  position: absolute;
+  right: -0.75em;
+  top: -0.75em;
+  content: attr(data-count);
+  padding: 0.5em;
+  border-radius: 10em;
+  line-height: 0.9em;
+  color: white;
+  background-color: red;
+  text-align: center;
+  min-width: 2em;
+  font: bold 0.4em sans-serif;
+}
+
+#basic-nav-dropdown:hover {
+  color: #A1DD70;
+}

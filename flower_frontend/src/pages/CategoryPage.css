@@ -1,0 +1,163 @@
+.category-page-container {
+    min-height: 90vh;
+    background-color: #f6f3f1;
+    position: relative;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+.category-banner-container {
+    position: relative;
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://res.cloudinary.com/krokcoffee/image/upload/v1717622308/category_page_i85b94.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.main-text {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-size: 43px;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 10px 20px;
+}
+
+.bannerCopyright {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 10px;
+    color: white;
+}
+
+.bannerCopyright a {
+    color: white;
+
+}
+
+.search-and-filter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f6f3f1;
+    border-bottom: 1px solid #ced4da;
+}
+
+.search-form {
+    margin-right: 10px;
+}
+
+.filters-container {
+    padding: 20px;
+}
+
+.filters-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 300px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-right: 1px solid #ced4da;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+    overflow-y: scroll;
+}
+
+.filters-sidebar.show {
+    transform: translateX(0);
+}
+
+.price-range-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+}
+
+.rc-slider {
+    margin: 20px 0;
+}
+
+.rc-slider-track {
+    height: 6px;
+}
+
+.rc-slider-handle {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #799351;
+    margin-top: -7px;
+}
+
+.price-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.price-input {
+    width: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.price-input:focus {
+    border-color: #799351;
+    box-shadow: 0 0 5px rgba(121, 147, 81, 0.5);
+    outline: none;
+}
+
+.price-separator {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.filter-range-container {
+    font-weight: 500;
+}
+
+.filter-toggle-btn {
+    margin-left: 10px;
+}
+
+.table-responsive-lg {
+    margin: 20px 0;
+    font-size: 14px;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.filter-table td {
+    padding: 5px;
+    text-align: center;
+}
+
+.filter-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.filter-table img {
+    max-width: 50px;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}

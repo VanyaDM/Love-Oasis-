@@ -1,0 +1,38 @@
+.admin-dashboard {
+    background-color: #f6f3f1;
+    padding: 20px;
+    min-height: 90vh;
+}
+
+.sidebar {
+    background-color: #343a40;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.sidebar .nav-link {
+    color: white;
+    margin-bottom: 10px;
+    background-color: #495057;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sidebar .nav-link.active {
+    background-color: #9be079;
+    color: black;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #9be079;
+    color: white;
+}
+
+.tab-content {
+    background-color: #343a40;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

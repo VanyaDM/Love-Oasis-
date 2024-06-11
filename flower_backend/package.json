@@ -1,0 +1,32 @@
+{
+  "name": "flowers-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.2",
+    "bootstrap-icons": "^1.10.5",
+    "cloudinary": "^1.30.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.19.2",
+    "mongoose": "^6.3.5",
+    "nodemailer": "^6.9.13",
+    "socket.io": "^4.5.1",
+    "stripe": "^9.6.0",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-mock-req-res": "^1.0.2",
+    "supertest": "^7.0.0"
+  }
+}

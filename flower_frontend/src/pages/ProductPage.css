@@ -1,0 +1,134 @@
+.product-page {
+    background-color: #f6f3f1;
+    padding: 20px; /* Ensure consistent padding */
+}
+
+.product-content {
+    background-color: #ffffff; /* Unified white background */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px; /* Add some margin at the bottom */
+}
+
+.product__carousel--image {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 500px;
+    border-radius: 10px;    
+}
+
+.alice-carousel__prev-btn,
+.alice-carousel__next-btn {
+    display: none !important;
+}
+
+.product-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.product-category {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.product__price {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 20px 0;
+    color: #ff5722;
+    text-align: center;
+}
+
+.product__description {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.product-details-col {
+    padding: 20px; /* Match the padding in Contacts page */
+}
+
+.btn-outline-dark {
+    background-color: #fff;
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 12px 24px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.btn-outline-dark:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn_orange {
+    background-color: #fcce41;
+    border: 0;
+    color: #000000;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 12px 24px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.btn_orange:hover,
+.btn_orange.active-hover {
+    background-color: #fbbd04;
+    color: #000;
+}
+
+.btn_green {
+    background-color: #799351;
+    border: 0;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 12px 24px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn_green:hover,
+.btn_green.active-hover {
+    background-color: #88CC60;
+    color: #fff;
+}
+
+.similar-products-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.alice-carousel__dots {
+    margin-top: 20px;
+}
+
+.alice-carousel__dots-item {
+    background: #799351;
+    width: 12px;
+    height: 12px;
+}
+
+.alice-carousel__dots-item.__active {
+    background: #2EA332;
+}

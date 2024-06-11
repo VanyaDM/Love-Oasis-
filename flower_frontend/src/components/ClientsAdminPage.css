@@ -1,0 +1,33 @@
+.clients-admin-page {
+    background-color: #f8f9fa;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 90vh;
+}
+
+.clients-table {
+    background-color: white;
+}
+
+.clients-table th {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+}
+
+.clients-table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}

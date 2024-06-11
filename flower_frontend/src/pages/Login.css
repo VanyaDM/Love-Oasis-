@@ -1,0 +1,59 @@
+.loginContainer {
+    background-color: #f6f3f1;
+}
+
+.login__form--container {
+    display: flex;
+    margin-top: 110px;
+    margin-bottom: 80px;
+    flex-direction: column;
+    align-items: center;
+    height: 65vh;
+    justify-content: center;
+    background-color: #f6f3f1;
+}
+
+.loginPageButton {
+    display: inline-block;
+    background-color: #A1DD70;
+    color: #000;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.loginPageButton:hover {
+    background-color: #88CC60;
+}
+
+.login__image--container {
+    position: relative;
+    background-image: url(https://res.cloudinary.com/krokcoffee/image/upload/v1713997583/Login_ea5jlz.jpg);
+    height: 90vh;
+    margin-bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.LoginBannerCopyright {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 10px;
+    color: #000000;
+}
+
+.LoginBannerCopyright a {
+    color: black;
+}
+
+@media screen and (max-width: 756px) {
+    .login__image--container {
+        display: none;
+    }
+}

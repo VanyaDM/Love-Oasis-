@@ -1,0 +1,104 @@
+.contactsPageContainer {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.contactsBackground {
+background-color: #f6f3f1;
+}
+
+.contactsBanner {
+  position: relative;
+  height: 300px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://res.cloudinary.com/krokcoffee/image/upload/v1717860160/Contacts_ibi47y.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.contactsBannerCopyright {
+position: absolute;
+bottom: 10px;
+right: 10px;
+font-size: 10px;
+color: white;
+}
+
+.contactsBannerCopyright a {
+color: white;
+}
+
+.contactsMainText {
+font-family: "Montserrat Alternates", sans-serif;
+font-weight: 700;
+font-size: 43px;
+text-shadow: 2px 2px 4px #000000;
+padding: 10px 20px; /* Padding around the text */
+}
+
+.map2 {
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.contacts_text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 146%;
+  text-align: center;
+  color: #000000;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+/* Contact form styles */
+.contact-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  font-weight: bold;
+}
+
+.contact-form textarea {
+  resize: none; /* Prevent textarea resizing */
+}
+
+/* Contact information styles */
+.contact-info {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-info h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Map styles */
+.map-container {
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden; /* Ensure map stays within container */
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 400px; /* Adjust map height as needed */
+  border: none;
+}

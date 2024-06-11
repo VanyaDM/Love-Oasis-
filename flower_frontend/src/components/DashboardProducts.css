@@ -1,0 +1,68 @@
+.dashboard-products {
+    background-color: #f8f9fa;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 90vh;
+}
+
+.products-table th {
+    background-color: #343a40;
+    color: white;
+}
+
+.products-table td {
+    vertical-align: middle;
+}
+
+.dashboard-product-preview {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+.deleteProductButton{
+    background-color: #EE4E4E;
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+  
+.deleteProductButton:hover{
+    background-color: #D93B3B;
+    color: white;
+}
+
+.editProductButton{
+    background-color: #fcce41;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.editProductButton:hover{
+    background-color: #fbbd04;
+    color: #000;
+}

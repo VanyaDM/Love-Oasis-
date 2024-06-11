@@ -1,0 +1,32 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+.container {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #000000;
+  max-width: 1920px;
+}
+
+.footer_container {
+  width: 100%;
+  background-color: #fff;
+  max-width: 1920px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+footer {
+  padding: 1rem 0;
+}
+
+.text-body-secondary {
+  color: #000000;
+}
+
+.text-body-secondary:hover {
+  color: #A1DD70;
+}

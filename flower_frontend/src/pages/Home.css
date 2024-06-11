@@ -1,0 +1,142 @@
+.body {
+  font-family: 'Montserrat Alternates', sans-serif;
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #FFF;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.homeBanner {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.homeBanner .carousel-item img {
+  width: 100%;
+}
+
+.homeBanner .banner-btn {
+  display: inline-block;
+  position: absolute;
+  top: 62%;
+  left: 5%;
+  background-color: #EE4E4E;
+  color: white;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-style: normal;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.homeBanner .banner-btn:hover {
+  background-color: #D93B3B;
+}
+
+.homeBannerCopyright {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  color: #000000;
+  font-size: 10px;
+  text-align: right;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.homeBlackBannerCopyright {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  color: #ffffff;
+  font-size: 10px;
+  text-align: right;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.featured-products-container {
+  margin-top: 50px;
+  background-color: #f6f3f1;
+  padding-bottom: 10px;
+}
+
+.recent-products-container {
+  background-color: #FFF;
+}
+
+.category-tile {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  padding: 20px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin-top: 30px;
+}
+
+.category-tile:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  border: 1px solid #799351;
+  border-radius: 10px;
+  width: 15rem !important;
+}
+
+img.card-img-top.product-preview-img {
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .homeBanner .banner-btn {
+      padding: 3px 4px;
+      font-size: 70%;
+      line-height: 1.7;
+      border-radius: 10px;
+  }
+
+  .homeBannerCopyright {
+      font-size: 6px;
+      padding: 3px 6px;
+  }
+
+  .homeBlackBannerCopyright {
+    font-size: 6px;
+    padding: 3px 6px;
+    color: white;
+  } 
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .homeBanner .banner-btn {
+      padding: 4px 9px;
+      font-size: 90%;
+      line-height: 2.2;
+      border-radius: 10px;
+  }
+
+  .homeBannerCopyright {
+      font-size: 4px;
+      padding: 4px 8px;
+  }
+
+  .homeBlackBannerCopyright{
+      font-size: 4px;
+      padding: 4px 8px;
+      color: white;
+  }
+}

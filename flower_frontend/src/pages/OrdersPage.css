@@ -1,0 +1,82 @@
+.orders-page {
+    background-color: #f6f3f1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.table-responsive-sm {
+    max-height: 70vh;
+    overflow-y: scroll;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.orders-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.order-modal .modal-header,
+.order-modal .modal-footer {
+    border: none;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.order-modal .modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.order-modal .order-details__container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.order-modal .order-details__image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.order-modal .order-details__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.order-modal .order-details__name {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #555;
+    margin: 0;
+}
+
+.order-modal .order-details__price {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ff5722;
+    margin: 0;
+}
+
+.order-modal__close-button {
+    background-color: #fff;
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    transition: all 0.3s ease;
+}
+
+.order-modal__close-button:hover {
+    background-color: #000;
+    color: #fff;
+}
