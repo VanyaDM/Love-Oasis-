@@ -18,7 +18,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "express": "^4.19.2",
-    "mongoose": "^6.3.5",
+    "mongoose": "^6.13.8",
     "nodemailer": "^6.9.13",
     "socket.io": "^4.5.1",
     "stripe": "^9.6.0",
